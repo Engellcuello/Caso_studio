@@ -1,33 +1,63 @@
-
-nav{
+nav {
     display: flex;
+    justify-content: space-between;
+    background-color: #a5b68d;
+    padding: 10px;
 }
 
-h3{
+.titulo_principal h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #a5b68d;
+}
+
+.menu, .menu_login {
+    display: flex;
+    align-items: center;
+}
+
+.menu h3, .menu_login h3 {
+    color: #fcfaee;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.menu h3:hover, .menu_login h3:hover {
+    color: #da8359;
+}
+
+.historia {
+    padding: 20px;
+    background-color: #ecdfcc;
+    color: #333;
+}
+
+.historia h2 {
+    color: #a5b68d;
+    margin-bottom: 10px;
+}
+
+.historia ul {
+    list-style: disc;
     margin-left: 20px;
 }
 
-.menu{
-    display: flex;
-    padding: 10px;
-    width: 50%;
+.historia ul li {
+    margin: 5px 0;
 }
 
-.menu_login{
-    display: flex;
-    padding: 10px;
-    justify-content: end;
-    width: 50%;
+h1 {
+    font-size: 20px;
 }
 
-.login{
-    margin-right: 20px;
+h2 {
+    font-size: 16px;
 }
 
-.tittle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
+h3 {
+    font-size: 14px;
 }
 
+p {
+    font-size: 10px;
+}
