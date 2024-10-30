@@ -1,0 +1,33 @@
+
+nav{
+    display: flex;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+
+.menu_login{
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    width: 50%;
+}
+
+.login{
+    margin-right: 20px;
+}
+
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
