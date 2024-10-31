@@ -82,3 +82,49 @@ p {
     background-color: #ecdfcc;
     margin-top: 20px;
 }
+
+li{
+    padding: 5px;
+}
+
+.refente{
+    width: 100%;
+    height: auto;
+    background-color: #a5b68d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.como_lo_aplica{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.seccion4{
+    display: flex;
+    align-items: center;
+}
+
+.empresa{
+    width: 150px;
+    border-radius: 25px;
+}
+
+.aplica{
+    width: 200px;
+    border-radius: 25px;
+}
+
+.como_lo_aplica{
+    padding: 10px;
+}
+
+.historia_referente{
+    padding: 10px;
+}
+
+body{
+    padding: 10px;
+    overflow-x: hidden;
+}
